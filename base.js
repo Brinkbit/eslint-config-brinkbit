@@ -23,5 +23,6 @@ module.exports = {
             imports: 'always-multiline',
             exports: 'always-multiline',
         }],
+        'no-underscore-dangle': 0,
     },
 };

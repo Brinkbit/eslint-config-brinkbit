@@ -10,5 +10,7 @@ module.exports = {
         'space-before-function-paren': [ 2, 'never' ],
         'max-nested-callbacks': 0,
         'import/no-extraneous-dependencies': 0,
+        'max-len': 0,
+        'global-require': 0,
     },
 };
