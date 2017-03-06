@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brinkbit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Brinkbit's custom style rules based on airbnb's base config",
   "main": "index.js",
   "keywords": [
