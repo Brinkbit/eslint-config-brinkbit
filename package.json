@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-brinkbit",
+  "version": "0.1.0",
+  "description": "Brinkbit's custom style rules based on airbnb's base config",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "brinkbit",
+    "style"
+  ],
+  "repository": "Brinkbit/eslint-config-brinkbit",
+  "bugs": {
+    "url": "https://github.com/brinkbit/eslint-config-brinkbit/issues"
+  },
+  "homepage": "https://github.com/brinkbit/eslint-config-brinkbit#readme",
+  "author": "Brinkbit",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
