@@ -16,7 +16,7 @@ module.exports = {
             objectsInArrays: false,
             arraysInArrays: false,
         }],
-        'comma-dangle': [ 'error', {
+        'comma-dangle': [ 2, {
             functions: 'never',
             arrays: 'always-multiline',
             objects: 'always-multiline',
