@@ -11,7 +11,10 @@ module.exports = {
         'browser': true,
     },
     plugins: [
+        'babel',
+        'node',
         'react',
+        'promise',
     ],
     rules: {
         indent: [ 2, 4, { SwitchCase: 1 }],
@@ -30,6 +33,7 @@ module.exports = {
             imports: 'always-multiline',
             exports: 'always-multiline',
         }],
+        'no-param-reassign': 0,
         'no-underscore-dangle': 0,
         'jsx-quotes': [ 2, 'prefer-single' ],
         'react/jsx-indent': [ 2, 4 ],
