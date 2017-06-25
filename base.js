@@ -1,11 +1,21 @@
 module.exports = {
-    extends: 'airbnb-base',
-    ecmaFeatures: {
-        modules: false,
+    extends: 'airbnb',
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true
+        }
     },
     env: {
         'browser': true,
     },
+    plugins: [
+        'babel',
+        'node',
+        'react',
+        'promise',
+    ],
     rules: {
         indent: [ 2, 4, { SwitchCase: 1 }],
         'space-in-parens': [ 2, 'always', { exceptions: [ '{}', '[]', '()' ] }],
@@ -23,6 +33,12 @@ module.exports = {
             imports: 'always-multiline',
             exports: 'always-multiline',
         }],
+        'no-param-reassign': 0,
         'no-underscore-dangle': 0,
+        'jsx-quotes': [ 2, 'prefer-single' ],
+        'react/jsx-indent': [ 2, 4 ],
+        'react/jsx-uses-react': 2,
+        'react/jsx-uses-vars': 2,
+        'react/jsx-filename-extension': [ 1, { 'extensions': [ '.js', '.jsx' ] }],
     },
 };
