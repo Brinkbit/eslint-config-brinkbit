@@ -13,6 +13,9 @@
   "bugs": {
     "url": "https://github.com/brinkbit/eslint-config-brinkbit/issues"
   },
+  "scripts": {
+    "postversion": "git push origin master && hub pull-request -m 'Bump version' && git push --tags upstream && npm publish && git pull upstream master && git push upstream master"
+  },
   "homepage": "https://github.com/brinkbit/eslint-config-brinkbit#readme",
   "author": "Brinkbit",
   "license": "MIT",
