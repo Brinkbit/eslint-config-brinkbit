@@ -17,7 +17,7 @@ module.exports = {
         'promise',
     ],
     rules: {
-        indent: [ 2, 4, { SwitchCase: 1 }],
+        indent: [ 2, 4, { SwitchCase: 1, MemberExpression: 0 }],
         'space-in-parens': [ 2, 'always', { exceptions: [ '{}', '[]', '()' ] }],
         strict: [ 2, 'global' ],
         'brace-style': [ 2, 'stroustrup' ],
