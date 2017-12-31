@@ -40,5 +40,13 @@ module.exports = {
         'react/jsx-uses-react': 2,
         'react/jsx-uses-vars': 2,
         'react/jsx-filename-extension': [ 1, { 'extensions': [ '.js', '.jsx' ] }],
+        'function-paren-newline': 0,
+        'object-curly-newline': [ 'error', { 'consistent': true }],
+        'prefer-destructuring': [ 'error', {
+            'array': false,
+            'object': true,
+        }, {
+            'enforceForRenamedProperties': false
+        }]
     },
 };
